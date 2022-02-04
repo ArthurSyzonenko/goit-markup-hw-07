@@ -1,15 +1,3 @@
-:root {
-  --blue-color: #2196f3;
-  --first-title-color: #ffffff;
-  --second-titele-color: #212121;
-  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #212121;
-  letter-spacing: 0.03em;
-}
-
 .container {
   width: 1200px;
   padding-right: 15px;
@@ -291,7 +279,7 @@ body {
 .customer-link:focus .client-icon {
   fill: #2196f3;
 }
-
+/* footer */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
