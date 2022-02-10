@@ -25,7 +25,7 @@
 .footer-logo {
   padding-bottom: 20px;
 }
-.footer-list {
+.list__footer-list {
   margin-top: 20px;
   padding-bottom: 60px;
 }
@@ -39,17 +39,17 @@
   letter-spacing: 0.03em;
 }
 
-.container-footer-logo {
+.container__footer-logo {
   margin-right: 70px;
 }
 
 .logo-item {
   margin-bottom: 20px;
 }
-.address-item + .address-item {
+.list__address-item + .list__address-item {
   margin-top: 9px;
 }
-.address-item .street {
+.list__address-item .street {
   color: #ffffff;
 }
 .footer-contacts {
@@ -61,13 +61,13 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-}
-.footer-contacts:hover,
-.footer-contacts:focus {
-  color: var(--blue-color);
+  &:hover,
+  &:focus {
+    color: var(--blue-color);
+  }
 }
 
-.connect-item:not(:first-child) {
+.list__connect-item:not(:first-child) {
   margin-left: 10px;
 }
 
@@ -80,14 +80,22 @@
   align-items: center;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+  &:hover .connect-icon,
+  &:focus .connect-icon {
+    fill: #ffffff;
+  }
 }
 
-.connect-list {
+.list__connect-list {
   display: flex;
   justify-content: center;
 }
 
-.container-connect {
+.container__connect {
   align-items: center;
 }
 
@@ -107,14 +115,6 @@
   fill: #ffffff;
 }
 
-.connect-link:hover,
-.connect-link:focus {
-  background-color: #2196f3;
-}
-.connect-link:hover .connect-icon,
-.connect-link:focus .connect-icon {
-  fill: #ffffff;
-}
 .subscribe {
   display: inline-block;
   padding-top: 10px;
@@ -128,7 +128,7 @@
   color: #ffffff;
 }
 
-.subscribe-container {
+.subscribe__container {
   margin-left: 107px;
 }
 
@@ -143,14 +143,12 @@
   border-radius: 4px;
   padding-left: 16px;
   color: #ffffff;
-
   background-color: #2f303a;
-}
-
-.subscribe-input::placeholder {
-  line-height: calc(20 / 16);
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    line-height: calc(20 / 16);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .subscribe-button {
@@ -174,14 +172,12 @@
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: #188ce8;
+  }
 }
-
 .subscribe-icon {
   margin-left: 10px;
-}
-
-.subscribe-button:hover,
-.subscribe-button:focus {
-  color: #ffffff;
-  background-color: #188ce8;
 }

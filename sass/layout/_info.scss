@@ -1,13 +1,13 @@
-.info-list {
+.list__info-list {
   display: flex;
 }
-.info-titele {
+.info__titele {
   display: none;
 }
-.info-item {
+.list__info-item {
   padding-top: 94px;
 }
-.image-info {
+.image__info {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
   border-radius: 4px;
   background-color: #f5f4fa;
 }
-.info-list-titele {
+.info__list-titele {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -26,7 +26,7 @@
   margin-bottom: 10px;
   color: #212121;
 }
-.info-list-text {
+.info__list-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;

@@ -1,4 +1,4 @@
-.hero-order-btn {
+.hero__order-btn {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -15,10 +15,9 @@
   letter-spacing: 0.06em;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-order-btn:hover,
-.hero-order-btn:focus {
-  background-color: var();
-  color: var(--first-title-color);
+  &:hover,
+  &:focus {
+    background-color: var();
+    color: var(--first-title-color);
+  }
 }

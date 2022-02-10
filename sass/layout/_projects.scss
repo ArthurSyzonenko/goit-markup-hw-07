@@ -9,9 +9,13 @@
   margin-bottom: 30px;
   margin-left: 30px;
   text-align: left;
-}
-.projects-list-item:hover .project-img-title {
+  &:hover .project-img-title {
   transform: translateY(0%);
+}
+&:hover, &:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 }
 .projects-list-item-wrap {
   position: relative;
@@ -33,11 +37,6 @@
   color: var(--first-title-color);
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.projects-list-item:hover,
-.projects-list-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .project-container {
   padding: 20px 24px;
