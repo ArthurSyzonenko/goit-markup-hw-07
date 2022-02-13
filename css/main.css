@@ -153,17 +153,16 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close,
-.modal-close .modal-title {
+.modal-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
-  padding-top: 5px;
   color: #212121;
+  margin-bottom: 12px;
+  padding-top: 5px;
 }
 
 .form-field {
@@ -631,6 +630,10 @@ body {
   margin-left: 10px;
 }
 
+.team-social-icon {
+  fill: #afb1b8;
+}
+
 .team-social-link {
   width: 44px;
   height: 44px;
@@ -653,13 +656,9 @@ body {
   background-color: #2196f3;
 }
 
-.team-social-link:hover,
+.team-social-link:hover .team-social-icon,
 .team-social-link:focus .team-social-icon {
   fill: #ffffff;
-}
-
-.team-social-icon {
-  fill: #afb1b8;
 }
 
 .container__clients {
@@ -787,20 +786,18 @@ body {
 }
 
 .footer-logo-web {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  font-weight: bold;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .footer-logo-studio {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   font-weight: bold;
@@ -933,7 +930,7 @@ body {
   color: #ffffff;
 }
 
-.subscribe-container {
+.subscribe__container {
   margin-left: 107px;
 }
 
